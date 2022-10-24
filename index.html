@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/owfont-regular.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>momentum</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="vp-wrapper">
+			<!-- HEADER -->
+			<header class="header">
+				<div class="header__container _container">
+					<div class="weather">
+						<input type="text" class="weather__city" value="load...">
+						<div class="weather__main-info">
+							<i class="weather__icon weather-icon owf"></i>
+							<div class="weather__temperature"></div>
+						</div>
+						<div class="weather__description">load..</div>
+					</div>
+				</div>
+			</header>
+			<!-- MAIN -->
+			<main class="main">
+				<div class="main__container _container">
+					<div class="slider-icons">
+						<button class="slider-icon slider-prev"><img src="./img/icons/slider-prev.svg" alt=""></button>
+						<button class="slider-icon slider-next"><img src="./img/icons/slider-next.svg" alt=""></button>
+					</div>
+					<div class="main-info">
+						<div class="main-info__time time" id="time">
+							<span class="time__hours" id="hours">HH</span> :
+							<span class="time__minutes" id="minutes">MM</span> :
+							<span class="time__seconds" id="seconds">SS</span>
+						</div>
+						<div class="main-info__date date" id="date">Thursday, July 28</div>
+						<div class="main-info__greeting greeting" id="greeting">
+							<span class="greeting__daytime"></span>
+							<span class="greeting__saved-name" id="name-span"><i>[your name]</i></span>
+							<input type="text" class="greeting__input-name" placeholder="[your name]" value="" />
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+		<!-- FOOTER -->
+		<footer class="footer">
+			<div class="footer__container _container">
+
+				<div class="footer__quotes quotes">
+					<img src="./img/icons/update-arrow.svg" alt="" class="quotes__update" id="update">
+					<p class="quotes__quote" id="quote">theres will be quote... maybe</p>
+					<p class="quotes__author" id="author">and the author</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="./js/script.js"></script>
+</body>
+
+</html>

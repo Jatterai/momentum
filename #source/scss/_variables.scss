@@ -1,0 +1,14 @@
+$minWidth: 320px;
+$maxWidth: 1152;
+$maxWidthContainer: 1300;
+$md1: $maxWidthContainer + 12;
+$md2: 991.98px;
+$md3: 768px;
+$md4: 479.98px;
+
+//ЦВЕТА
+$backgroundColor: #1f1f1f;
+$fontColor: #fff;
+$accentColor: rgb(248, 34, 145);
+$gradient: linear-gradient(180deg, rgb(248, 34, 127) 0%, rgb(248, 34, 145) 100%);
+$horizontalGradient: linear-gradient(90deg, rgb(248, 34, 127) 0%, rgb(248, 34, 145) 100%);
